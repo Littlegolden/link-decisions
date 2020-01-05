@@ -1,6 +1,6 @@
 # Link Decisions
 
-A [Flarum](http://flarum.org) extension which lets people choose how to open links within post content in a cool way. Sure, one could right click and choose, "open in new window," but where's the fun in that? :) Plus, just in case someone is visiting your forum and they truly don't realize how to open links in new tabs, or they aren't really thinking about it but deep down they would prefer this behavior, this helps them out with that.
+A [Flarum](http://flarum.org) extension which lets people choose how to open links within post content in a cool way. Sure, one could right click and choose, "open in new window," but where's the fun in that? :) Plus, just in case someone is visiting your forum and they truly don't realize how to open links in new tabs, or they aren't really thinking about it but deep down they would prefer this behavior, this helps them out.
 
 ### Installation
 
