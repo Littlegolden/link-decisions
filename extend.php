@@ -28,6 +28,8 @@ swal({
   html: true,
   type: "warning",
   confirmButtonColor: '#2ecc71',
+  confirmButtonText: "Go",
+  cancelButtonText: "Cancel",
   showCancelButton: true,
   showConfirmButton: true,
 },function(){
