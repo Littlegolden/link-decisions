@@ -28,7 +28,7 @@ swal({
   html: true,
   type: "warning",
   confirmButtonColor: '#2ecc71',
-  confirmButtonText: "Go",
+  confirmButtonText: "OK",
   cancelButtonText: "Cancel",
   showCancelButton: true,
   showConfirmButton: true,
