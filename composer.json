@@ -1,0 +1,33 @@
+{
+    "name": "zerosonesfun/link-decisions",
+    "description": "Decide how to open post content links in a cool way.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\Link-Decisions\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Link Decisions",
+            "icon": {
+                "name": "fas fa-link",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
