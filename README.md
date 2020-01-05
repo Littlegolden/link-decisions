@@ -9,7 +9,7 @@ composer require zerosonesfun/link-decisions
 ```
 
 ### Extra
-Add this to your Custom CSS (admin appearance page) to add an external link icon at the end of external links. *Important:* Replace mysite.com with your domain name. (Thanks @UaMV for posting this tip long ago [here](https://discuss.flarum.org/d/1645-external-link-styling).
+Add this to your Custom CSS (admin appearance page) to add an external link icon at the end of external links. *Important:* Replace mysite.com with your domain name. (Thanks @UaMV for posting this tip long ago [here](https://discuss.flarum.org/d/1645-external-link-styling).)
 
 ~~~
 a[href*="//"]:not([href*="mysite.com"]) {
