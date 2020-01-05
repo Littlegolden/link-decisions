@@ -13,7 +13,7 @@ use Flarum\Frontend\Document;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
- $document->head[] = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">';
+ $document->head[] = '<link rel="stylesheet" href="/assets/extensions/zerosonesfun-link-decisions/sweetalert.css">';
  $document->foot[] = <<<HTML
 <script>
   flarum.core.compat.extend.extend(flarum.core.compat['components/CommentPost'].prototype, 'config', function(output, isInitialized, context) {
@@ -43,8 +43,8 @@ return false;
     context.custommExtLastContentHtml = context.contentHtml;
   });
 </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='/assets/extensions/zerosonesfun-link-decisions/sweetalert.js'></script>
+<script src='/assets/extensions/zerosonesfun-link-decisions/sweetjq.js'></script>
 HTML;
         })
 ];
