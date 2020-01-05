@@ -13,7 +13,7 @@ use Flarum\Frontend\Document;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
- $document->head[] = '<link rel="stylesheet" href="/assets/extensions/zerosonesfun-link-decisions/sweetalert.css"><script src="/assets/extensions/zerosonesfun-link-decisions/sweetjq.js"></script>';
+ $document->head[] = '<link rel="stylesheet" href="/assets/extensions/zerosonesfun-link-decisions/sweetalert.css">';
  $document->foot[] = <<<HTML
 <script>
   flarum.core.compat.extend.extend(flarum.core.compat['components/CommentPost'].prototype, 'config', function(output, isInitialized, context) {
