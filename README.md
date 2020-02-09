@@ -23,6 +23,9 @@ a[href*="//"]:not([href*="mysite.com"]):after {
     padding: 0 .4em;
     font-size: 70%;
 }
+.sweet-alert a[href*="//"]:not([href*="mysite.com"]):after {
+    display: none;
+}
 ~~~
 
 ### Updating
