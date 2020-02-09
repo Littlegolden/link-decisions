@@ -1,9 +1,10 @@
 import app from 'flarum/app';
 import { extend } from 'flarum/extend';
 import CommentPost from 'flarum/components/CommentPost';
-import extractText from 'flarum/utils/extractText';
+import swal from '../assets/sweetalert.min';
 
 const localePrefix = 'zerosonesfun-link-decisions.forum.';
+
 
 app.initializers.add('zerosonesfun-link-decisions', () => {
   extend(CommentPost.prototype, 'config', function(output, isInitialized, context) {
@@ -18,12 +19,10 @@ app.initializers.add('zerosonesfun-link-decisions', () => {
         var getLink = $(this).attr('href');
         swal({
           title: app.translator.trans(localePrefix + 'title'),
-          text: extractText(app.translator.trans(localePrefix + 'text', {
-            openInCurrentTab:
-              <a href={getLink} target="_self">
-                {app.translator.trans(localePrefix + 'openInCurrentTab')}
-              </a>
-          })),
+          text: app.translator.trans(localePrefix + 'noThanks') + 
+                  '<a href="' + getLink + '" target="_self">' + 
+					app.translator.trans(localePrefix + 'openInCurrentTabText') + 
+                  '</a>',
           html: true,
           type: "warning",
           confirmButtonColor: '#2ecc71',
