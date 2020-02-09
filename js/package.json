@@ -1,0 +1,19 @@
+{
+  "name": "@zerosonesfun/link-decisions",
+  "description": "Decide how to open post content links in a cool way.",
+  "license": "MIT",
+  "version": "1.2.0",
+  "dependencies": {
+    "flarum-webpack-config": "0.1.0-beta.10",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zerosonesfun/link-decisions.git"
+  },
+  "scripts": {
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  }
+}

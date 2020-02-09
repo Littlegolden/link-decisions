@@ -1,0 +1,7 @@
+zerosonesfun-link-decisions:
+  forum:
+    title:                   This link will open in a new tab.
+    text:                    "No thanks, {openInCurrentTab}."
+    openInCurrentTab:        open in current tab
+    confirmButtonText:       OK, Go!
+    cancelButtonText:        Cancel
