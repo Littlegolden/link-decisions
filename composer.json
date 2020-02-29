@@ -1,5 +1,5 @@
 {
-    "name": "zerosonesfun/link-decisions",
+    "name": "littlegolden/link-decisions",
     "description": "Decide how to open post content links in a cool way.",
     "keywords": [
         "flarum"
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ZerosOnesFun\\Link-Decisions\\": "src/"
+            "littlegolden\\Link-Decisions\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Link Decisions",
+            "title": "Littlegolden Link Decisions",
             "icon": {
                 "name": "fas fa-link",
                 "backgroundColor": "#ddd",
